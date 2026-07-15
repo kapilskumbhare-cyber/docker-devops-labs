@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>🐍 Flask DevOps Lab</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>{{ message }}</h2>
+            <p>
+                This application is built using <strong>Python Flask</strong>.
+                It will later be containerized using Docker as part of the
+                Docker DevOps Labs.
+            </p>
+
+            <a href="#" class="btn">Explore Project</a>
+        </div>
+    </section>
+
+    <section class="features">
+
+        <div class="card">
+            <h3>🐍 Python</h3>
+            <p>
+                Powerful programming language widely used for automation,
+                cloud computing, and DevOps.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>⚡ Flask</h3>
+            <p>
+                A lightweight Python web framework that makes web application
+                development simple and flexible.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🐳 Docker</h3>
+            <p>
+                In the next phase, this Flask application will be packaged
+                into a Docker container.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="info">
+        <h2>Lab Objective</h2>
+
+        <p>
+            Learn how to build a Flask application locally before
+            containerizing it with Docker.
+        </p>
+
+        <ul>
+            <li>✔ Understand Flask Project Structure</li>
+            <li>✔ Create Routes</li>
+            <li>✔ Serve HTML Templates</li>
+            <li>✔ Add Static CSS</li>
+            <li>✔ Prepare for Docker Containerization</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>
+            Docker DevOps Labs • Flask Application • Created by Kapil Kumbhare
+        </p>
+    </footer>
+
+</body>
+</html>
