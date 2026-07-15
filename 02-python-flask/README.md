@@ -120,6 +120,3 @@ Flask Application
 
 **Kapil Kumbhare**
 
-Electronics Engineer | DevOps Enthusiast
-
-Linux • Docker • Kubernetes • Jenkins • AWS
