@@ -110,3 +110,10 @@ See [commands.md](commands.md) for all commands used in this lab.
 - Mapped container port 80 to host port 8080.
 - Served a static HTML page using Nginx.
 - Verified images and running containers.
+
+---
+
+## 👨‍💻 Author
+
+**Kapil Kumbhare**
+
