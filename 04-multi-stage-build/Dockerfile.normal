@@ -1,0 +1,21 @@
+# BASE IMAGE 
+FROM node:22
+
+# SET WORKING DIRECTORY
+WORKDIR /app
+
+# COPY PACKAGE FILES
+COPY package*.json ./
+
+# INSTALL DEPENDENCY 
+RUN npm install
+
+# COPY FILE
+COPY . .
+
+# EXPOSE PORT 
+EXPOSE 3000
+
+#DEFAULT COMMAND 
+CMD ["npm", "start"]
+
